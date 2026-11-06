@@ -1,0 +1,10 @@
+CREATE EXTENSION citext;
+
+CREATE TABLE IF NOT EXISTS ejemplo (
+    id SERIAL PRIMARY KEY,
+    alias VARCHAR(64) NOT NULL,
+    correo CITEXT UNIQUE
+);
+
+
+
