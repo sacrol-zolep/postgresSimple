@@ -1,2 +1,2 @@
 CREATE ROLE app_user WITH LOGIN PASSWORD :'APP_PASSWORD';
-GRANT CONNECT ON DATABASE mi_base_datos TO app_user;
+GRANT CONNECT ON DATABASE pg_central TO app_user;
